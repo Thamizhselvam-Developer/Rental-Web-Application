@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1749540253589" clover="3.2.0">
+  <project timestamp="1749540253589" name="All files">
+    <metrics statements="29" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="29" coveredelements="0" complexity="0" loc="29" ncloc="29" packages="2" files="24" classes="24"/>
+    <package name="Db">
+      <metrics statements="28" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Add.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Add.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="Card.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Card.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="CardDetails.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/CardDetails.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="Content.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Content.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="Detailed.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Detailed.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="Event.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Event.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="LatestVehicle.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/LatestVehicle.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="Luxury.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Luxury.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="Myvehicles.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Myvehicles.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="Offers.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Offers.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="PopularVehicles.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/PopularVehicles.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="Receipt.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Receipt.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="Shopprofile.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Shopprofile.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="Test.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Test.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="Trends.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Trends.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="Type.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Type.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="UserProfile.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/UserProfile.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="Users.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Users.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+      </file>
+      <file name="VBrand.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/VBrand.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="VFuel.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/VFuel.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="VTransmission.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/VTransmission.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="Vehicle.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/Vehicle.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="View.js" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/Db/View.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="UseContext.jsx" path="/home/ninja/Documents/RENTAL WEB APPLICATION/WebApplication/Rent_a_Vehicle/src/hooks/UseContext.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
