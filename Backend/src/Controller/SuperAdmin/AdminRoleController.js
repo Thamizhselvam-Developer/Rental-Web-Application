@@ -27,7 +27,11 @@ const baseControl = async(req, res) => {
                             message: result.password,
                         };
                 
-                        await Email.sendEmail(options);
+                        await Email.sendEmail(options)
+                        .then((response)=>{
+                            console.log(response)
+                        })
+                        
                         res.send({
                             info: "Check your mail!",
                             message:"Added"

@@ -1,6 +1,7 @@
 const RentalFormServices = require("../../Service/ShopAdmin/RentalFormServices")
 
 const Email = require("../../Utilities/Email/Email");
+require("dotenv").config();
 
 
 const RentalFormControllerGet = async (req, res) => {
@@ -27,29 +28,12 @@ const RentalFormControllerFunction = async (req, res) => {
 let files = req.files
     let output = req.body;
     // console.log(output,"OUTPUT",files)
-     await RentalFormServices.RentalFormServicesData(output,files)
-     .then(async(result)=>{
-      console.log(result)
-                        if(result.password){
-                            const options = {
-                                to: output.Email,
-                                subject:"Password" ,
-                                message: result.hashedPassword,
-                            };
-                    
-                            await Email.sendEmail(options);
-                            res.send({
-                                info: "Check your mail!",
-                                message:"Added"
-                            })
-            
-                        }
-                        // console.log(result.password,email)
-                    })
-  
-  }
+       const  Data=   await RentalFormServices.RentalFormServicesData(output,files)
+        res.send({msg:"Form Submitted Succesfully"})
+                 } 
   catch (err) {
-    res.send(err)
+    console.log(err.messge)
+    res.send("Error")
   }
 
 

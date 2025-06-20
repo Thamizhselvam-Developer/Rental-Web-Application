@@ -76,7 +76,7 @@ const RentalFormLicense=(licenseDataName,licenseDataPath)=>{
                     if (error) {
                         console.log("Database erroru: " + error.message)
         
-                        return reject("Database error: " + error.message);
+                        return reject(error);
                     }else{
                     resolve(results.insertId);
 
@@ -87,7 +87,6 @@ const RentalFormLicense=(licenseDataName,licenseDataPath)=>{
 const RentalFormImages =(name,path,ShopId)=>{
     const Values = (name,path).map((item)=>[item,item,ShopId])
     return new Promise((resolve, reject) => {
-console.log(name,path,"MODEL")
         const query = `INSERT INTO rental_shop_img_tbl (image_name,image_path,Rental_shop_id) VALUES ?`;
       
 
@@ -96,7 +95,7 @@ console.log(name,path,"MODEL")
             if (error) {
                 console.log("Database errory: " + error.message)
 
-                return reject("Database error: " + error.message);
+                return reject(error);
             }
             //  const insertIdArr= []
             // let  i=0;
@@ -129,7 +128,7 @@ const RentalFormOwnerData = (username,contactNumber,email,address,aadhaarNumber,
                 console.log("Database error:r " + error.message)
 
 
-                return reject("Database error: " + error.message);
+                return reject(error);
             }
             resolve(results);
         });

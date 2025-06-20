@@ -18,7 +18,7 @@ const Login = (req, res) => {
     //   return res.send({ message: "Missing authentication cookies" });
     // }
     try {
-      // let output 
+      // let output =  req.body
 
       if (output.whois == "User") {
         console.log(output, "Controller");
@@ -76,7 +76,7 @@ const Login = (req, res) => {
         SuperLoginServices.SuperLoginFrontend(output)
                   .then((Data) => {
                     if(Data.msg =="Password Match"){
-                      res.cookie("Token", jwt.jwt(Data.id, Data.email), {
+                      res.cookie("AdminToken", jwt.Admin_jwt(Data.id, Data.email), {
                         maxAge: 900000,
                         httpOnly: false,
                         secure: false,
@@ -107,7 +107,7 @@ const Login = (req, res) => {
         ShopLoginServices.ShopLoginData(output)
                   .then((Data) => {
                     if(Data.msg =="Password Match"){
-                      res.cookie("Token", jwt.jwt(Data.id, Data.email), {
+                      res.cookie("ShopAdminToken", jwt.ShopAdmin_jwt(Data.id, Data.email), {
                         maxAge: 900000,
                         httpOnly: false,
                         secure: false,

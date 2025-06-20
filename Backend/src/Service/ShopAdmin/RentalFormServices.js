@@ -59,7 +59,7 @@ const RentalFormServicesData = async (output, files) => {
     return { imageData, ownerData, shopData , hashedPassword };
 
   } catch (err) {
-    console.error("Error in RentalFormServicesData:", err.message);
+    console.error("Error in RentalFormServicesData:", err);
     return  err
   }
 };
