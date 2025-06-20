@@ -22,9 +22,11 @@ export const ProtectedRoutes = () => {
   const [Auth,setAuth]=useState(null)
  const location = useLocation();
   useEffect(()=>{
-  const Token = Cookies.get("Token")
-
-    if(Token !=null){
+  // const Token = Cookies.get("userId")
+  const Admin_Token= Cookies.get("AdminToken")
+  const ShopAdminToken = Cookies.get("ShopAdminToken")
+const Token = Cookies.get("Token")
+    if(Admin_Token !=null || ShopAdminToken !=null ||Token !=  null){
       setAuth(true)
     }
     else{
@@ -50,7 +52,7 @@ if (path.startsWith("/admin")) {
   return <Navigate to="/AdminLogin" replace />
 }
 
-if (path.startsWith("/shopadmin")) {
+if (path.startsWith("/shop-admin")) {
   return <Navigate to="/ShopAdminLogin" replace />
 }
 else return <Navigate to = "/login" replace/>
