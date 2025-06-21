@@ -45,7 +45,7 @@ export default {
       colors: {
         primary: "#FF4545",
         secondary: "#fe019a",
-        background:"#F5F5F5",
+        background:"#F9FAFB",
         main: "#F5EEDC",
         backgroundLight: "#f3f4f6", // Light mode background
         backgroundDark: "#1d222a", // Dark mode background

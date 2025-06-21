@@ -52,7 +52,7 @@ function App() {
         <Route path="/CompleteLatestCard" element={<CompleteLatest/>} />
         
 
-
+          
       
         <Route  element= {<ProtectedRoutes/>}>
        

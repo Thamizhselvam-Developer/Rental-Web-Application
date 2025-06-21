@@ -140,7 +140,7 @@ const Book=(id)=>{
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-4">
 
                 {LatestVehicledata.map((items, id) => (
-                    <div key={id} className=" rounded-2xl shadow-[0px_4px_11px_8px_rgba(0,_0,_0,_0.1)] m-9 ">
+                    <div key={id} className=" rounded-2xl shadow-[0px_4px_11px_8px_rgba(0,_0,_0,_0.1)] m-auto ">
                         <div className=" relative  ml-4 mr-4">
                             <div className=" absolute top-[5px] right-[5px]  flex w-8 h-7 justify-center items-center rounded-md bg-white overflow-hidden ">
                                 <Heart />
@@ -260,7 +260,7 @@ const Book=(id)=>{
                                 </span>
                             </div>
 
-                            <div className="hidden text-end items-center  ">
+                            <div className="hidden md:block lg:block text-end items-center  ">
                                     <button
                                         type="button"
                     onClick={()=>Book(items.vehicle_id )}
@@ -271,7 +271,7 @@ const Book=(id)=>{
                                     </button>
                             </div>
                         </div>
-                          <div className="md:hidden text-center  ">
+                          <div className=" md:hidden text-center  ">
                                     <button
                                         type="button"
                     onClick={()=>Book(items.vehicle_id )}

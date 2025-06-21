@@ -9,12 +9,12 @@ function Works() {
       </div>
 
       <div className="relative mt-8 mb-20">
-        <div className="absolute -z-10 sm:top-1/2 sm:left-0 sm:right-0 sm:h-[2px] sm:w-full w-[2px] h-full bg-gray-300 sm:translate-y-[-50%] left-1/2 sm:translate-x-0 translate-x-[-50%]"></div>
+        <div className="absolute -z-10 sm:top-1/2 sm:left-0 sm:right-0 sm:h-[2px] sm:w-full w-[2px] h-full bg-primary sm:translate-y-[-50%] left-1/2 sm:translate-x-0 translate-x-[-50%]"></div>
 
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
           <div className="bg-white text-black rounded-lg shadow-md px-6 py-8 w-full max-w-xs">
             <div className="flex justify-center mb-4">
-              <div className="bg-primary p-3 rounded-full">
+              <div className="bg-primary p-3 rounded-full ">
                 <svg
                   className="w-6 h-6 text-white"
                   fill="currentColor"
@@ -70,6 +70,7 @@ function Works() {
             <p className="text-gray-500 text-sm text-center">
               See which vehicles are available and book the vehicle of your choice
             </p>
+            
           </div>
         </div>
       </div>

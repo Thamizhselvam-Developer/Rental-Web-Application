@@ -156,7 +156,7 @@ await axios.get(`${app}api/latestvehicle`)
             
             <button
               type="button"
-              className="hidden md:block rounded-full border-2 border-gray-700 w-24 h-9 hover:bg-[#FF0000]"
+              className="hidden md:block rounded-full border-2 border-gray-700 w-24 h-9 "
             >
               View All
             </button>

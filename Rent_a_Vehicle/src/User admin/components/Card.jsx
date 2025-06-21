@@ -146,7 +146,7 @@ const Book=(id)=>{
       )
     }
       <div className="">
-        <div className="container flex justify-around md:justify-between  md:items-center   mb-9 md:mt-[20px]">
+        <div className="container flex justify-around md:justify-between  md:items-center  lg:justify-between  mb-9 md:mt-[20px]">
           <div className="hidden md:block font-main font-bold text-3xl tracking-[2px] ml-[-20px]">
          
             For You
@@ -155,9 +155,9 @@ const Book=(id)=>{
            
             For You
           </div>
-         <div className="hidden md:block lg:block">
+         <div className="hidden md:block lg:block  ">
           <Link to="/CompleteCard">
-          <button className= "bg-white  text-black border-black border-2  rounded-full w-24 h-9 px-2 py-1 hover:bg-primary hover: ">View All</button>
+          <button className= "bg-white  text-black border-black border-2  rounded-full w-24 h-9 px-2 py-1  ">View All</button>
           </Link>
          </div>
         </div>
@@ -274,8 +274,8 @@ const Book=(id)=>{
               </div>
 
               <div className="flex justify-center  md:justify-center lg:justify-between xl:justify-between  mt-5 mx-4 mb-4 shadow-red-900">
-                <div className="mb-3 flex gap-1 justify-start text-gray-700 dark:text-gray-400">
-                  <div className="mt-1 text-[23px] ">
+                <div className=" flex gap-1 justify-start text-gray-700 dark:text-gray-400">
+                  <div className=" text-[23px] ">
                     <i className="fa-solid fa-indian-rupee-sign"></i>
                   </div>
                   <span className="text-[25px] font-black">{items.price}</span>
